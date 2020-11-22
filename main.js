@@ -12,7 +12,7 @@ const $blog4 = document.querySelector('#post-text-4');
 
 const apiURL = 'https://jsonplaceholder.typicode.com/posts/';
 
-let posts = [];
+let posts;
 
 let index = 4;
 
