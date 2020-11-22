@@ -42,7 +42,7 @@ const populatePost = (post, $heading, $blog) => {
 };
 
 document
-    .querySelector('#see-more-button')
+    .querySelector('.see-more-button')
     .addEventListener('click', () => {
         populatePost(posts[index], $heading1, $blog1);
         populatePost(posts[index + 1], $heading2, $blog2);
